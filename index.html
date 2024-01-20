@@ -273,8 +273,8 @@
             </div>
             <div class="hero min-h-screen">
                 <div class="hero-content flex-col lg:flex-row gap-24">
-                    <img src="images/others/faq.png" class="max-w-sm rounded-lg w-1/2" />
-                    <div class="w-1/2">
+                    <img src="images/others/faq.png" class="max-w-sm rounded-lg md:w-full lg:w-1/2" />
+                    <div class="md:w-full lg:w-1/2">
                         <!-- question one -->
                         <div class="collapse collapse-arrow">
                             <input type="radio" name="my-accordion-2" checked="checked" />
@@ -343,8 +343,31 @@
             </div>
         </section>
     </main>
-    <footer>
-
+    <footer class="footer p-10 bg-[#0B0D17] text-neutral-content">
+        <div class="container mx-auto flex flex-col lg:flex-row justify-between items-center">
+            <aside class="mb-6">
+                <div class="flex gap-6 text-base font-normal mb-6">
+                    <a href="#">Download Now</a>
+                    <a href="#">License</a>
+                </div>
+                <div class="flex gap-6 text-base font-normal mb-6 flex-wrap">
+                    <a href="#">About</a>
+                    <a href="#">Fetures</a>
+                    <a href="#">Pricing</a>
+                    <a href="#">Careers</a>
+                    <a href="#">Help</a>
+                    <a href="#">PrivacyPolicy</a>
+                </div>
+                <p class="flex gap-6 text-sm font-normal">&copy 2024 bike.All rights Reserved</p>
+            </aside>
+            <nav>
+                <header class="footer-title text-xl font-medium">Get the app</header>
+                <div>
+                    <img class="my-4" src="images/others/android.png" alt="">
+                    <img src="images/others/ios.png" alt="">
+                </div>
+            </nav>
+        </div>
     </footer>
 </body>
 
